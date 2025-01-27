@@ -21,15 +21,20 @@
 
 
 
-console.log(null>0);
-console.log(null==0);
-console.log(null>=0);
-console.log("___________________");
+// #SYMBOL
 
-console.log(undefined>0);
-console.log(undefined==0);
-console.log(undefined<0);
-console.log("__________________________");
 
-console.log(2===2);
-console.log("2"===2);
+const heros = ["Shaktiman", "Naagraj",'Doga'];
+
+let myObj={
+name:"Ganesh Belokar",
+age : 22
+};
+
+const myFunction = function(){
+     console.log("Hello World");
+}
+
+console.log(typeof(myObj.age));
+console.log(typeof(myFunction)); //Return type is Object function
+
