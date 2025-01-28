@@ -56,8 +56,11 @@ student.greeting = function() {
 
 }
 
-console.log(student.greeting);
+//console.log(student.greeting);
 console.log(student.greeting());
+console.log("______________________________________________");
+console.log(student);
+
 
 
 
